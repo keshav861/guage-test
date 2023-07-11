@@ -1,0 +1,144 @@
+.footer-wrap {
+  background-image: url("https://ik.imagekit.io/aq3ybtarw/gauge/Footer-bg-scaled.webp?updatedAt=1683734121419");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.elementor-background-overlay {
+  background-image: url("https://ik.imagekit.io/aq3ybtarw/gauge/section-design-bg-min__1_.png?updatedAt=1683732975519");
+  background-position: 800px 400px;
+  background-repeat: no-repeat;
+  background-size: 7% auto;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-element.elementor-element-283780d {
+  width: var(--container-widget-width, 1716.5px);
+  max-width: 1716.5px;
+  --container-widget-width: 1716.5px;
+  --container-widget-flex-grow: 0;
+  right: -20px;
+}
+
+.footer-title > h2 {
+  color: #fff;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  font-size: 1.25em;
+  line-height: 1.5em !important;
+}
+
+.f-links {
+  color: #b1b1b1;
+  font-size: inherit;
+}
+
+.elementor-screen-only,
+.screen-reader-text,
+.screen-reader-text span,
+.ui-helper-hidden-accessible {
+  position: absolute;
+  top: -10000em;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.footer-icon svg {
+  width: 3em;
+  height: 3em;
+  position: relative;
+  display: block;
+}
+
+span.elementor-grid-item {
+  margin-right: 10px;
+}
+
+.elementor-social-icon {
+  background-color: #02010100;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 10%;
+}
+
+.z-ten {
+  z-index: 10;
+}
+
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+.elementor-widget-social-icons.elementor-grid-mobile-0
+  .elementor-widget-container,
+.elementor-widget-social-icons.elementor-grid-tablet-0
+  .elementor-widget-container {
+  line-height: 1;
+  font-size: 0;
+}
+
+.elementor-widget-social-icons:not(.elementor-grid-0):not(
+    .elementor-grid-tablet-0
+  ):not(.elementor-grid-mobile-0)
+  .elementor-grid {
+  display: inline-grid;
+}
+
+.elementor-widget-social-icons .elementor-grid {
+  grid-column-gap: var(--grid-column-gap, 5px);
+  grid-row-gap: var(--grid-row-gap, 5px);
+  grid-template-columns: var(--grid-template-columns);
+  justify-content: var(--justify-content, center);
+  justify-items: var(--justify-content, center);
+}
+
+.elementor-grid-0 .elementor-grid .elementor-grid-item {
+  display: inline-block;
+  margin-bottom: var(--grid-row-gap);
+  word-break: break-word;
+}
+
+.footer-icon.elementor-social-icon {
+  font-size: var(--icon-size, 6px);
+  line-height: var(--icon-size, 25px);
+  width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, 0.5em)));
+  height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, 0.5em)));
+}
+
+.elementor-social-icon {
+  --e-social-icon-icon-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.elementor-social-icon i {
+  color: var(--e-social-icon-icon-color);
+}
+
+.elementor-social-icon svg {
+  fill: var(--e-social-icon-icon-color);
+}
+
+.elementor-social-icon:last-child {
+  margin: 0;
+}
+
+.elementor-social-icon:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.elementor-shape-rounded .elementor-icon.elementor-social-icon {
+  border-radius: 10%;
+}
+
+.elementor-shape-circle .elementor-icon.elementor-social-icon {
+  border-radius: 50%;
+}

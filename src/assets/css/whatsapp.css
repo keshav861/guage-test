@@ -1,0 +1,83 @@
+.df-btn {
+    padding: 0 !important;
+    border: none !important;
+    outline: none !important;
+    font-family: "Roboto", "Google Sans", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    border-radius: 24px !important;
+    transition: all 2s linear !important;
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    z-index: 10005 !important;
+    align-items: flex-end !important;
+    line-height: 1 !important;
+  }
+
+  .df-btn-text {
+    align-items: center!important;
+    background-color: #4dc247;
+    border-radius: 24px!important;
+    color: #fff!important;
+    cursor: pointer!important;
+    display: flex!important;
+    font-size: 25px!important;
+    font-weight: 500!important;
+    justify-content: center!important;
+    letter-spacing: .25px!important;
+    margin-top: 15px!important;
+    padding: 5px 15px 5px 10px!important;
+    transition: all .08s linear!important;
+}
+
+  
+.df-btn:hover {
+    outline: none !important;
+  }
+  
+  .df-btn:focus {
+    outline: none !important;
+  }
+  
+  .df-btn:not(.df-closed) {
+    border-radius: 16px !important;
+  }
+  
+  .df-btn a {
+    text-decoration: none !important;
+    color: #0a5f54 !important;
+  }
+  
+  .df-btn a:hover {
+    text-decoration: none !important;
+  }
+
+  
+.df-svg-icon {
+    height: 35px !important;
+    width: 35px !important;
+    fill: #fff !important;
+  }
+
+  
+
+
+
+@media (max-width: 460px) {
+    .wa-widget {
+      width: 100%;
+    }
+  
+    .wa-widget-toggle {
+      float: right;
+    }
+  
+    .wa-widget-content {
+      width: auto;
+      left: 1rem;
+      right: 1rem;
+    }
+  }
